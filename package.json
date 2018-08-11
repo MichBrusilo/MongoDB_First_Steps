@@ -1,19 +1,16 @@
 {
-  "name": "zadanie_17_6",
+  "name": "zadanie_21",
   "version": "1.0.0",
-  "description": "serwowanie plikow statycznych",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "mich b",
+  "author": "MB",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.2.5",
-    "pug": "^2.0.3"
-  },
-  "devDependencies": {}
+    "mongoose": "^5.1.2"
+  }
 }
