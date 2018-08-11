@@ -2,9 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/nodeappdatabase', {
-    useMongoClient: true
-});
+mongoose.connect('mongodb://MichBrusilo:michalzaq12wsx@ds119572.mlab.com:19572/database_1')
 
 //new user Schema
 const userSchema = new Schema({
